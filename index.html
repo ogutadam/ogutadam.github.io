@@ -42,10 +42,11 @@
 		margin: 30px auto;
 		box-shadow: 1px 1px 4px hotpink;
 		padding: 7px;
-		transition: 0.2;
+		transition-property: widht;
+
 	}
 
-	.profile img{
+	.profile img {
 		width: 140px;
 		height: 140px;
 		border-radius: 50%;
@@ -57,9 +58,22 @@
 		box-shadow: 2px 2px 6px deeppink;
  	}
 
+ 	.profile img :hover{
+ 		color: white;
+		transition: 0.5s;
+		text-shadow:
+		 0 0 10px skyblue,
+		 0 0 20px skyblue,
+		 0 0 40px skyblue;
+		 transform: scale(1.5);
+		 opacity: 100%;
+		 letter-spacing: 0.5;
+
+ 	}
+
 	.profile h1{
 		text-align: center;
-		color: white;
+		color: black;
 		font-weight: bold;
 		font-size: 30px;
 		background-color: hotpink;
@@ -67,6 +81,18 @@
 		background-size: 20px;
 		background-blend-mode: multiply;
 
+	}
+
+	.profile h1:hover{
+		color: white;
+		transition: 0.5s;
+		text-shadow:
+		 0 0 10px skyblue,
+		 0 0 20px skyblue,
+		 0 0 40px skyblue;
+		 transform: scale(1.5);
+		 opacity: 100%;
+		 letter-spacing: 0.5;
 	}
 
 	.profile h2{
